@@ -123,6 +123,27 @@ npm run dev
 ```
 
 ## Screenshots
+1. Dashboard for content verification
+   <img width="1871" height="1076" alt="Screenshot 2026-07-28 101104" src="https://github.com/user-attachments/assets/5d7d3ee7-2466-4276-b336-56662d4bb4b8" />
+*Features*   
+-Deepfake detection: includes AI synthetic image verification.
+-includes fake news detection using text verification.(uses openAi)
+-Screen capture option
+
+2. AI synthetic Audio verification.
+   <img width="1587" height="852" alt="Screenshot 2026-07-28 101144" src="https://github.com/user-attachments/assets/442b829d-1dfa-4595-8c72-a59fe9fb6d22" />
+
+3. Multimodal Chatbot for personalized verification.
+   <img width="1423" height="1024" alt="Screenshot 2026-07-28 101359" src="https://github.com/user-attachments/assets/758a1d29-c367-4283-976b-94179136b786" />
+   <img width="1423" height="1024" alt="Screenshot 2026-07-28 101359" src="https://github.com/user-attachments/assets/1324d0ff-463e-4747-8e0d-4701ce1b5d04" />
+> trust score provided by the model.
+   <img width="412" height="314" alt="Screenshot 2026-07-28 101510" src="https://github.com/user-attachments/assets/eae59b2b-1c09-4933-b945-460ad509dfbd" />
+
+4. Extension for flexibility of user.
+   <img width="1129" height="966" alt="image" src="https://github.com/user-attachments/assets/a83050b4-f424-4a39-b071-bb7c4dba39a8" />
+
+
+
 
 
 
