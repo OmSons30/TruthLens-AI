@@ -35,7 +35,17 @@ AI Models:
 
 ## Architecture
 
-(Add your architecture diagram here.)
+GitHub automatically renders Mermaid diagrams. Here is the structure of the TruthLens AI platform:
+
+```mermaid
+graph TD
+    Client[React Frontend / Chrome Extension] -->|HTTP / WebSockets| API[FastAPI Backend]
+    API -->|Prompt & Verification| Adapt[Model Adapter / Verification Service]
+    Adapt -->|Remote Analysis| OpenAI[OpenAI API GPT-4o]
+    Adapt -->|Local Analysis| Ollama[Local Ollama Service]
+    Adapt -->|Media Spoofing Detection| HF[Hugging Face Models Hub]
+```
+
 
 ## Installation
 
@@ -102,7 +112,13 @@ npm run dev
 
 ## Screenshots
 
-(Add screenshots.)
+To add screenshots:
+1. Save your screenshot images (e.g. `dashboard.png`) in an `assets/` directory at the project root.
+2. Embed them using standard markdown image tags as shown below:
+
+![Main Dashboard](assets/dashboard.png)
+_Add a brief description of what the dashboard shows here._
+
 
 ## Future Improvements
 
