@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=380" />
+  <title>TruthLens AI</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <div class="popup-container">
+    <!-- Header -->
+    <header class="popup-header">
+      <div class="popup-logo">TL</div>
+      <div class="popup-title">TruthLens AI</div>
+    </header>
+
+    <!-- Input Section -->
+    <div class="input-area">
+      <textarea
+        id="claim-text"
+        placeholder="Paste suspicious text to verify..."
+        rows="3"
+      ></textarea>
+
+      <div class="btn-row">
+        <button id="btn-verify-text" class="btn primary" title="Verify entered text">
+          🔍 Verify Text
+        </button>
+        <button id="btn-capture" class="btn secondary" title="Capture page screenshot and verify">
+          📸 Capture Page
+        </button>
+      </div>
+
+      <button id="btn-verify-selection" class="btn outline full-width" title="Verify selected text on the page">
+        ✂️ Verify Selected Text on Page
+      </button>
+    </div>
+
+    <!-- Loading -->
+    <div id="loading" class="loading hidden">
+      <div class="spinner"></div>
+      <span>Analyzing content...</span>
+    </div>
+
+    <!-- Error -->
+    <div id="error-msg" class="error-msg hidden"></div>
+
+    <!-- Results -->
+    <div id="results" class="results hidden">
+      <div class="result-header">
+        <div id="ai-alert" class="ai-alert hidden">
+          ⚠ AI-Generated / Synthetic Content Detected
+        </div>
+
+        <div class="score-row">
+          <div class="score-circle" id="score-circle">
+            <span id="score-value">0</span>
+          </div>
+          <div class="verdict-col">
+            <span id="category-badge" class="category-badge">—</span>
+            <span id="risk-label" class="risk-label">Risk: —</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="result-section">
+        <strong>Claim:</strong>
+        <p id="claim-text-display" class="claim-display">—</p>
+      </div>
+
+      <div class="result-section">
+        <strong>Reasons:</strong>
+        <div id="reasons-list" class="reasons-list"></div>
+      </div>
+
+      <div class="result-section recommendation" id="recommendation-box">
+        <strong>Recommendation:</strong>
+        <p id="recommendation-text">—</p>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="popup-footer">
+      Powered by TruthLens AI Engine · v1.0
+    </footer>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
