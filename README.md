@@ -73,6 +73,15 @@ npm install
 npm run dev
 ```
 
+### Chrome Extension
+
+To load the Chrome Extension locally:
+
+1. Open Google Chrome and navigate to `chrome://extensions/`.
+2. Enable **Developer mode** using the toggle switch in the top-right corner.
+3. Click the **Load unpacked** button in the top-left corner.
+4. Select the `chrome-extension` folder from the root of the project.
+
 ### Ollama
 
 ```bash
@@ -102,6 +111,7 @@ Run backend:
 
 ```bash
 uvicorn main:app --reload
+python main.py
 ```
 
 Run frontend:
