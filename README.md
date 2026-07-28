@@ -1,3 +1,5 @@
+<img width="404" height="79" alt="Screenshot 2026-07-28 101857" src="https://github.com/user-attachments/assets/993883d8-349f-4e49-b593-22ce191cb5d3" />
+
 # TruthLens AI
 
 TruthLens AI is a multimodal AI verification platform that detects misinformation, AI-generated media, and synthetic voices using multiple LLMs, computer vision, and speech analysis. It supports OpenAI GPT-4o and local Ollama models through a modular architecture.
@@ -122,13 +124,6 @@ npm run dev
 
 ## Screenshots
 
-To add screenshots:
-1. Save your screenshot images (e.g. `dashboard.png`) in an `assets/` directory at the project root.
-2. Embed them using standard markdown image tags as shown below:
-
-![Main Dashboard](assets/dashboard.png)
-_Add a brief description of what the dashboard shows here._<img width="1436" height="858" alt="Screenshot 2026-07-28 003236" src="https://github.com/user-attachments/assets/0ad7a44e-3de0-4906-a26b-382ef1dbbad6" />
-<img width="1436" height="858" alt="Screenshot 2026-07-28 003236" src="https://github.com/user-attachments/assets/3cb581b5-a298-40ab-bcdb-a8e5ac37ed49" />
 
 
 
