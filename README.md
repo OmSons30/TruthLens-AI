@@ -127,7 +127,9 @@ To add screenshots:
 2. Embed them using standard markdown image tags as shown below:
 
 ![Main Dashboard](assets/dashboard.png)
-_Add a brief description of what the dashboard shows here._
+_Add a brief description of what the dashboard shows here._<img width="1436" height="858" alt="Screenshot 2026-07-28 003236" src="https://github.com/user-attachments/assets/0ad7a44e-3de0-4906-a26b-382ef1dbbad6" />
+<img width="1436" height="858" alt="Screenshot 2026-07-28 003236" src="https://github.com/user-attachments/assets/3cb581b5-a298-40ab-bcdb-a8e5ac37ed49" />
+
 
 
 ## Future Improvements
